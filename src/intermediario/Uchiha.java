@@ -30,4 +30,22 @@ public class Uchiha extends Ninja implements ShariganInterface{
     public void habilidadeEspecial(){
         System.out.println("Meu nome é " + nome + ", e esse é meu Ataque Uchiha, um ataque de Fogo!");
     }
+
+    //S obrecarga de metodo - Inteligencia de combate
+    @Override
+    public void  inteligenciaDeCombate(){
+        System.out.println("Meu nome é " + nome + ", e esse é minha Inteligencia de Combate!"     );
+    }
+
+    @Override
+    public void  inteligenciaDeCombate(int qi){
+        if(qi > 150){
+            System.out.println("Seu QI é " + qi + " e vc é um genio!" );
+        }else if (qi >=130 ){
+            System.out.println("Seu QI é " + qi + " e vc é um ninja promissor!" );
+        }else {
+            System.out.println("Seu QI é " + qi + " e vc precisa treinar suas estrategias!" );
+        }
+        System.out.println("Meu nome é " + nome + ", e esse é minha Inteligencia de Combate!"     );
+    }
 }

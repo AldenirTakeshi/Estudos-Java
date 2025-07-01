@@ -39,6 +39,8 @@ public class Main {
         madara.aldeia = "Aldenia da Folha";
         madara.idade = 100;
         madara.ShariganAtivado();
+        madara.inteligenciaDeCombate();
+        madara.inteligenciaDeCombate(180);
 
 
 
