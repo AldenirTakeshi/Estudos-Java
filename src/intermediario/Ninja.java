@@ -12,8 +12,14 @@ public class Ninja implements EstrategiaDeBatalha{
      String aldeia;
      int numeroDeMissoesConcluidas;
      NivelNinja rank;
+     final double altura = 2.90;
 
      public Ninja() {
+     }
+
+     //Metodo que todo ninja vai fazer obrigatoriamente
+     final public  void tacarKunai(){
+          System.out.println("Eu sou um metodo da class mother");
      }
 
      public Ninja(String nome, int idade, String missao, String nivelDeDificuldade, String statusDaMissao, String aldeia) {

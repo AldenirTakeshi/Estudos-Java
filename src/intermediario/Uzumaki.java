@@ -9,4 +9,5 @@ public class Uzumaki extends Ninja{
         System.out.println("Meu nome é " + nome + ", e esse é meu Ataque Uzumaki, um ataque de AR");
     }
 
+
 }

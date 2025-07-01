@@ -33,6 +33,11 @@ public class Main {
         naruto.idade = 16;
         naruto.rank = NivelNinja.GENIN;
         naruto.modoSabio();
+        System.out.println("================================");
+        naruto.tacarKunai();
+        System.out.println("================================");
+
+        System.out.println(naruto.altura);
 
         Uchiha madara = new Uchiha();
         madara.nome = "Madara";
